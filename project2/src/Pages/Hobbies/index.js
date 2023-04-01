@@ -40,8 +40,8 @@ export default function Hobbies() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
+    img: 'https://th.bing.com/th/id/OIP.Bk7GXRGxqrm78AhqJUpaJwHaFD?pid=ImgDet&rs=1',
+    title: 'Reading books',
     
     rows: 2,
     cols: 2,
