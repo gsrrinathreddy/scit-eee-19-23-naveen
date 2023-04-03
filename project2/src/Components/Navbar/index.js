@@ -13,8 +13,9 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
+import Naveen from '../../Assets/Naveen.jpg';
 
-const pages = ['Aboutus','Skills', 'Hobbies', 'Experience','Qualification'];
+const pages = ['Aboutus','Skills', 'Hobbies', 'Experience','Qualification','Contact','Workshops','Certifications','Projects'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -131,7 +132,7 @@ function Navbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" src= {Naveen}/>
               </IconButton>
             </Tooltip>
             <Menu
